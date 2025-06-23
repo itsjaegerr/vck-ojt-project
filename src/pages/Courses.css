@@ -1,0 +1,76 @@
+.courses-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.courses-banner {
+  width: 90%;
+  min-width: 500px;
+  max-width: 1000px;
+  max-height: 500px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  overflow-y: scroll;
+}
+
+.campus-life {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.campus-video {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 720px;
+  border-radius: 12px;
+}
+
+.programs ul,
+.vocational ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+.programs h2,
+.vocational h2,
+.fee-table h2 {
+  margin-top: 2.5rem;
+  color: #333;
+}
+
+.fee-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.fee-table th,
+.fee-table td {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.inquire-btn {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.un{
+  background-color: bisque;
+  border-radius: 10p;
+  width: 960px;
+
+}

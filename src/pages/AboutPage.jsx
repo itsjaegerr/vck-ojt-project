@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header/Header";
-import "./AboutPage.css";
+import Footer from "../components/Footer/Footer";
 
 const AboutPage = () => {
   return (
@@ -9,7 +9,7 @@ const AboutPage = () => {
 
       {/* Center this whole section */}
       <div className="about-wrapper">
-        <div className="maincont">
+        <div className="main">
           <h1>This is about College</h1>
 
           <p>
@@ -55,8 +55,9 @@ const AboutPage = () => {
         </div>
       </div>
 
-      <h2 style={{ textAlign: "center", marginBottom: "3rem" }}>Courses</h2>
+<Footer/>      
     </div>
+
   );
 };
 

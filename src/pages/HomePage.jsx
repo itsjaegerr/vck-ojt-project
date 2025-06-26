@@ -1,7 +1,9 @@
 import { useState } from "react";
 import Header from "../components/Header/Header";
 import Popup from "../components/Popup/Popup"; // make sure Popup.jsx is placed correctly
-import "./HomePage.css";
+import Footer from "../components/Footer/Footer";
+import ApplyPage from "./Applynow";
+
 
 const HomePage = () => {
   const [showPopup, setShowPopup] = useState(true);
@@ -19,7 +21,7 @@ const HomePage = () => {
 
 
 
-      <main className="main-content">
+      <div className="main-content">
         
        
         
@@ -27,7 +29,7 @@ const HomePage = () => {
         <div className="banner-text">
           <h1>Welcome to Vivekanand College!</h1>
           <p>Your journey to excellence starts here.</p>
-          <button className="apply-btn">Apply Now!</button>
+          <a href="/apply" className="apply-btn">Apply Now!</a>
         </div>
       </div>
         <h2>Welcome to Our College Page</h2>
@@ -63,15 +65,14 @@ const HomePage = () => {
         </div>
         
           <p className="cta-text">Ready to begin your journey with us?</p>
-          <button className="apply-btn">Apply Now</button>
-
+          <div className="exp">
+          <a href="/courses">Explore Courses</a>
+          </div>
         </section>
-      </main>
-      
+      </div>
+      <Footer/>
 
-      <footer className="footer">
-        <p>© 2025 Vivekanand College. All rights reserved.</p>
-      </footer>
+      
     </div>
   );
 };

@@ -1,19 +1,18 @@
 import React from "react";
 import Header from "../components/Header/Header";
-import "./Contact.css";
+import Footer from "../components/Footer/Footer";
 
 const Contact = () => {
   return (
     <div className="contact-page">
       <Header />
 
-      <section className="contact-header">
+      <div className="main2">
         <h1>Contact Us</h1>
         <p>
           We'd love to hear from you! Whether you have questions about admissions,
           programs, or campus life, our team is here to help.
         </p>
-      </section>
 
       <section className="contact-info">
         <div className="contact-block">
@@ -63,10 +62,10 @@ const Contact = () => {
           <button type="submit">Send Message</button>
         </form>
       </section>
+      </div>
 
-      <footer className="footer">
-        <p>© 2025 Vivekanand College. All rights reserved.</p>
-      </footer>
+     
+     <Footer/>
     </div>
   );
 };

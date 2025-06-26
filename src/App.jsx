@@ -5,10 +5,9 @@ import HomePage from "./pages/HomePage";
 import CoursesPage from "./pages/CoursesPage";
 import ContactPage from "./pages/ContactPage";
 import './styles/Pages.css';
-import'./pages/HomePage.css';
-import'./pages/AboutPage.css';
-import'./pages/Contact.css';
-import'./pages/Courses.css';
+import ChatbotComponent from "./components/Chatbot/ChatbotComponent";
+import ApplyPage from "./pages/Applynow";
+
 
 const App=()=>{
   return(
@@ -21,11 +20,13 @@ const App=()=>{
          <Route path="/about" element={<AboutPage/>}/>
         <Route path="/courses" element={<CoursesPage/>}/>
         <Route path="/contact" element={<ContactPage/>}/>
+        <Route path="/apply" element={<ApplyPage/>}/>
 
          
         
 
           </Routes>
+          <ChatbotComponent/>
 
       </Router>
     </div>

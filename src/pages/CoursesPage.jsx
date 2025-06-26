@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../components/Header/Header";
-import "./Courses.css";
+import Footer from "../components/Footer/Footer";
 
 const Courses = () => {
   return (
     <div className="courses-page">
       <Header />
 
-      <div className="courses-banner">
+      <div className="main1">
         <h1>Our Academic Programs</h1>
         <p>
           Vivekanand College offers a comprehensive range of undergraduate and
@@ -116,13 +116,17 @@ const Courses = () => {
           <li>Soft Skills Development</li>
         </ul>
         <p>Providing specialized training for career enhancement.</p>
+                <a href="/contact">
+                
+
         <button className="inquire-btn">Inquire About Courses</button>
+        </a>
       </section>
       </div>
+      
 
-      <footer className="footer">
-        <p>© 2025 Vivekanand College. All rights reserved.</p>
-      </footer>
+      
+      <Footer/>
 
     </div>
   );

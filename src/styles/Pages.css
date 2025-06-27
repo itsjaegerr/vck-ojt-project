@@ -7,7 +7,7 @@
 /* Banner with background */
 .banner {
   width: 100%;
-  height: 250x;
+  height: 350px;
   background: url(/images/banner.png)  center/cover no-repeat;
   position: relative;
   display: flex;
@@ -17,7 +17,18 @@
   border-radius: 10px;
   
 }
-S
+.Banner {
+  width: 100%;
+  height: 300px;
+  background: url(/images/banner.png)  center/cover no-repeat;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  align-items: center;
+  border-radius: 10px;
+  
+}
 /* Text on the banner */
 .banner-text {
   color: #fff;
@@ -29,21 +40,25 @@ S
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  
 }
 
 .banner-text h1 {
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: #fff;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .banner-text p {
   font-size: 1.2rem;
+  margin-bottom: 90px;
 }
 
 /* Apply Now button */
-.apply-btn {
-  margin-top: 1rem;
+.Apply1 {
+
   background-color: #28a745;
   color: #fff;
   border: none;
@@ -51,8 +66,8 @@ S
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
-  transition: background 0.3s ease;
-  margin-left: 220px;
+  transition: 0.3s ease;
+
   
 }
 
@@ -67,13 +82,14 @@ S
   max-width: 1000px;
   max-height: 500px;
   background-color: white;
-  padding: 3rem;
+  padding: 10px;
   border-radius: 10px;
   margin: 3rem 0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
   overflow-y: scroll;
   margin-top: 150px;
+
 }
 .main{
   width: 100%;
@@ -100,6 +116,7 @@ S
   margin: 3rem 0;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
+  margin-top: 170px;
   
   margin-top: 100px;
   margin-left: 220px;
@@ -116,7 +133,7 @@ S
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   overflow-y: auto;
   overflow-y: scroll;
-  margin-top: 100px;
+  margin-top: 130px;
   margin-left: 220px;
 }
 .exp{
@@ -426,7 +443,7 @@ html, body, #root {
 .banner {
   width: 100%;
   height: 180px;
-  background: url(../../public/images/banner.png)  center/cover no-repeat;
+  background: url(/images/banner.png)  center/cover no-repeat;
   position: relative;
   display: flex;
   justify-content: center;

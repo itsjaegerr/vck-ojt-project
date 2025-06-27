@@ -1,20 +1,21 @@
 import { useState } from "react";
 import Header from "../components/Header/Header";
-import Popup from "../components/Popup/Popup"; // make sure Popup.jsx is placed correctly
+/*import Popup from "../components/Popup/Popup";*/ // make sure Popup.jsx is placed correctly
 import Footer from "../components/Footer/Footer";
 import ApplyPage from "./Applynow";
+import { Link } from "react-router-dom";
 
 
 const HomePage = () => {
-  const [showPopup, setShowPopup] = useState(true);
+//  /* const [showPopup, setShowPopup] = useState(true);
 
-  const handleClosePopup = () => {
-    setShowPopup(false);
-  };
+//   const handleClosePopup = () => {
+//     setShowPopup(false);*/
+//   };
 
   return (
     <div className="homepage">
-      {showPopup && <Popup onClose={handleClosePopup} />}
+    
 
       <Header />
        
@@ -25,14 +26,13 @@ const HomePage = () => {
         
        
         
-      <div className="banner">
+      <div className="Banner">
         <div className="banner-text">
           <h1>Welcome to Vivekanand College!</h1>
           <p>Your journey to excellence starts here.</p>
-          <a href="/apply" className="apply-btn">Apply Now!</a>
+          <Link to="/apply" className="Apply1">Apply Now!</Link>
         </div>
       </div>
-        <h2>Welcome to Our College Page</h2>
         <div className="intro">
           <p>
             <b>Vivekanand College</b> is a premier educational institution
@@ -66,7 +66,7 @@ const HomePage = () => {
         
           <p className="cta-text">Ready to begin your journey with us?</p>
           <div className="exp">
-          <a href="/courses">Explore Courses</a>
+          <Link to="/courses">Explore Courses</Link>
           </div>
         </section>
       </div>
@@ -75,6 +75,5 @@ const HomePage = () => {
       
     </div>
   );
-};
-
+}
 export default HomePage;

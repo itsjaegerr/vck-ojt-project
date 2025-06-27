@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import "./Popup.css";
 
 const Popup = ({ onClose }) => {
@@ -26,4 +26,4 @@ const Popup = ({ onClose }) => {
   );
 };
 
-export default Popup;
+export default Popup;*/

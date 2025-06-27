@@ -43,7 +43,7 @@ const Contact = () => {
       <section className="map-section">
         <h2>Find Us on the Map</h2>
         <a
-          href="https://www.google.com/maps/place/Mahatma+Gandhi+Road,+Chembur,+Mumbai,+Maharashtra+400071"
+          href="https://maps.app.goo.gl/sztRZFhdDUEdAmkdA"
           target="_blank"
           rel="noreferrer"
           className="map-btn"

@@ -10,6 +10,7 @@
     position:fixed;
     z-index: 1000;
     border-bottom: 2px solid rgb(54, 176, 251);
+
 }
 .logo{
     display: block;
@@ -37,6 +38,7 @@
     margin-left: auto;
     padding: 0;
     position: relative;
+    padding-top: 20px;
 
 }
 .nav-item{
@@ -69,13 +71,13 @@
   margin: 0 auto;
   border-radius: 10px;
   font-size: 18px;
-  
+  margin-bottom: 20px;
 }
 .btn1:hover{
   background-color: green;
 }
 .nav>li>a{
-  color: black;
+  color: white;
   text-align: center;
  
 }
@@ -112,6 +114,9 @@
         padding-bottom: 1000px;
         
         
+    }
+    .nav>li>a{
+      color: black;
     }
     .nav.active{
         right: 0;
